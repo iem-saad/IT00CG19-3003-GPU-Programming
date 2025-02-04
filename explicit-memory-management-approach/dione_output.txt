@@ -1,0 +1,100 @@
+   Found 4 CUDA devices
+      Device Tesla V100-PCIE-16GB                  device 0
+         compute capability            =        7.0
+         totalGlobalMemory             =       16.93 GB
+         l2CacheSize                   =    6291456 B
+         regsPerBlock                  =      65536
+         multiProcessorCount           =         80
+         maxThreadsPerMultiprocessor   =       2048
+         sharedMemPerBlock             =      49152 B
+         warpSize                      =         32
+         clockRate                     =    1380.00 MHz
+         maxThreadsPerBlock            =       1024
+         asyncEngineCount              =          7
+         f to lf performance ratio     =          2
+         maxGridSize                   =   2147483647 x 65535 x 65535
+         maxThreadsDim in thread block =   1024 x 1024 x 64
+         concurrentKernels             =        yes
+         deviceOverlap                 =          1
+            Concurrently copy memory/execute kernel
+      Device Tesla V100-PCIE-16GB                  device 1
+         compute capability            =        7.0
+         totalGlobalMemory             =       16.93 GB
+         l2CacheSize                   =    6291456 B
+         regsPerBlock                  =      65536
+         multiProcessorCount           =         80
+         maxThreadsPerMultiprocessor   =       2048
+         sharedMemPerBlock             =      49152 B
+         warpSize                      =         32
+         clockRate                     =    1380.00 MHz
+         maxThreadsPerBlock            =       1024
+         asyncEngineCount              =          7
+         f to lf performance ratio     =          2
+         maxGridSize                   =   2147483647 x 65535 x 65535
+         maxThreadsDim in thread block =   1024 x 1024 x 64
+         concurrentKernels             =        yes
+         deviceOverlap                 =          1
+            Concurrently copy memory/execute kernel
+      Device Tesla V100-PCIE-16GB                  device 2
+         compute capability            =        7.0
+         totalGlobalMemory             =       16.93 GB
+         l2CacheSize                   =    6291456 B
+         regsPerBlock                  =      65536
+         multiProcessorCount           =         80
+         maxThreadsPerMultiprocessor   =       2048
+         sharedMemPerBlock             =      49152 B
+         warpSize                      =         32
+         clockRate                     =    1380.00 MHz
+         maxThreadsPerBlock            =       1024
+         asyncEngineCount              =          7
+         f to lf performance ratio     =          2
+         maxGridSize                   =   2147483647 x 65535 x 65535
+         maxThreadsDim in thread block =   1024 x 1024 x 64
+         concurrentKernels             =        yes
+         deviceOverlap                 =          1
+            Concurrently copy memory/execute kernel
+      Device Tesla V100-PCIE-16GB                  device 3
+         compute capability            =        7.0
+         totalGlobalMemory             =       16.93 GB
+         l2CacheSize                   =    6291456 B
+         regsPerBlock                  =      65536
+         multiProcessorCount           =         80
+         maxThreadsPerMultiprocessor   =       2048
+         sharedMemPerBlock             =      49152 B
+         warpSize                      =         32
+         clockRate                     =    1380.00 MHz
+         maxThreadsPerBlock            =       1024
+         asyncEngineCount              =          7
+         f to lf performance ratio     =          2
+         maxGridSize                   =   2147483647 x 65535 x 65535
+         maxThreadsDim in thread block =   1024 x 1024 x 64
+         concurrentKernels             =        yes
+         deviceOverlap                 =          1
+            Concurrently copy memory/execute kernel
+   Using CUDA device 0
+
+   Assuming input data is given in arc minutes!
+   data_100k_arcmin.dat contains 100000 galaxies
+   rand_100k_arcmin.dat contains 100000 galaxies
+   Assuming input data is given in arc minutes!
+   data_100k_arcmin.dat contains 100000 galaxies
+   rand_100k_arcmin.dat contains 100000 galaxies
+
+*****************************************************************************
+    Bin-                Omega      histogramDD      histogramDR      histogramRR
+=============================================================================
+   0.00- 0.25        2.365399         2350856          396662         1140716
+   0.25- 0.50        1.744417         4356416         1183132         2673438
+   0.50- 0.75        1.418153         5589018         1946030         4058226
+   0.75- 1.00        1.215410         6483428         2673818         5272688
+   1.00- 1.25        1.086647         7323414         3384896         6389408
+   1.25- 1.50        1.002047         8173756         4079235         7468356
+=============================================================================
+=============================================================================
+Sum of all histogramDD values: 10000000000
+Sum of all histogramDR values: 10000000000
+Sum of all histogramRR values: 10000000000
+=============================================================================
+   Time in GPU    : 0.842649 seconds
+   Results saved  : results.csv
+*****************************************************************************
